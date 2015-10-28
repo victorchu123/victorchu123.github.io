@@ -52,7 +52,7 @@
 /* Resume head line */
 .resumeHead{
     text-shadow: 0px 0px 0px;     
-    border-bottom: 2px ridge #000000;
+    border-bottom: 1px solid #000000;
 }
 
 .resumeHead li{
@@ -61,6 +61,13 @@
     font-weight: 100;
 }
 
+.thumbnail {
+    margin: none;
+    padding: none;
+    border: none;
+    background-color: transparent;
+    position:relative;
+}
 
 /* Dropdown menu */
 
