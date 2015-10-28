@@ -1,0 +1,261 @@
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline;
+}
+
+.jumbotron {
+    height: 1100px;
+    border-bottom:1px solid #000000;
+    border-top:1px solid #000000;
+}
+
+.jumbotron h1{
+    font-size: 40px;
+    font-weight: bold;  
+    font-family: serif;
+    text-shadow: 0px 0px 0px;    
+}
+
+.jumbotron li{ 
+    font-family: Helvetica;
+    font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+  font-size: 20px;
+  text-shadow: 0px 0px 0px;  
+}
+
+.jumbotron p{
+    text-shadow: 0px 0px 0px;    
+    font-size: 20px; 
+    font-family: Helvetica;
+    font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+
+.jumbotron a{
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 500;
+  color: #0000EE;
+}
+
+/* Resume head line */
+.resumeHead{
+    text-shadow: 0px 0px 0px;     
+    border-bottom: 2px ridge #000000;
+}
+
+.resumeHead li{
+    font-size: 18px;  
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+/* Dropdown menu */
+
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a {
+  /*color: #898989;*/
+  padding: 6px 20px;
+  font-weight: 500;
+}
+
+/* Education section of resume */
+
+.eduBox1 {
+    border: 2px solid #000000;
+}
+    
+.eduInfo p{
+ font-size: 15px;
+ display: inline;
+ font-family: Helvetica;
+ font-weight: 300;
+}
+
+.eduInfo li{
+ font-size: 15px;
+ font-family: Helvetica;
+ font-weight: 300;
+  margin-right:5px;
+}
+
+.eduBox1 h1{
+    padding: 5px 5px 0px;
+  font-size: 20px;
+  margin:5px;
+  font-style: oblique;
+  
+}
+
+.relcourses li{
+  font-style: normal;
+  font-family: Helvetica;
+ font-weight: 300;
+    font-size:15;
+}
+
+.relcourses h1{
+    padding: 5px;
+  font-size: 20px;
+  margin:5px;
+  font-style: oblique;
+  
+}
+
+.proficient li{
+  display: inline;
+}
+
+.familiar li{
+  display: inline;
+}
+
+/* Work Experience for resume */
+
+.workBox1{
+    border: 2px solid #000000; 
+}
+
+.workBox1 p{
+ font-size: 15px;
+ display: inline;
+ font-family: Helvetica;
+    font-weight: 300;   
+  padding: 2px 5px;
+}
+
+.workBox1 h1{
+  padding: 5px;
+  font-size: 20px;
+  font-style: oblique;
+  padding: 10px 10px 5px;
+}
+
+.workBox1 h2{
+  font-size: 15px; 
+  display: inline-block;
+  font-family: Helvetica;
+  font-weight:400;
+  font-style: oblique;
+  padding: 5px 5px 2px;
+  margin: 0px 10px 0px 10px;
+  padding:0;
+  
+}
+
+.workBox1 h3{
+  font-size: 14px; 
+  margin: 7px;
+  font-family: Helvetica;
+  font-weight: 300;
+  padding: 0px 5px;
+}
+
+/*.workBox1 h4{
+  font-size: 14px; 
+  margin-left: 7px;
+  font-family: Helvetica;
+  font-weight:600;
+  padding: 5px 0px ;
+  margin: 5px 0px 5px 0px;
+  //padding: 0px;
+  display: inline-block;
+}
+*/
+.workBox1 li{
+  font-size: 13px; 
+  font-family: Helvetica;
+  font-weight: 300;
+  margin-right: 5px;
+  
+}
+
+.workTitle1 h2{
+  font-weight: 600;
+  font-style:normal;
+}
+
+.workTitle2 h2{
+  font-weight: 600;
+  font-style:normal;
+}
+
+.workTitle3 h2{
+  font-weight: 600;
+  font-style:normal;
+}
+.workTitle4 h2{
+  font-weight: 600;
+  font-style:normal;
+}
+.workTitle5 h2{
+  font-weight: 600;
+  font-style:normal;
+}
+
+/* Project Section for resume */
+
+.projBox1 {
+    border: 2px solid #000000;
+}
+
+
+.projBox1 h1{
+  padding: 5px 5px 0px;
+  font-size: 20px;
+  margin:5px;
+  font-style: oblique;
+}
+
+.projBox1 h2{
+  font-size: 15px; 
+  display: inline-block;
+  font-family: Helvetica;
+  font-weight:400;
+  font-style: oblique;
+  padding: 5px 5px 2px;
+  margin: 0px 10px 0px 10px;
+  padding:0;
+  
+}
+
+.projBox1 h3{
+  font-size: 14px; 
+  margin: 7px;
+  font-family: Helvetica;
+  font-weight: 300;
+  padding: 0px 5px;
+}
+
+.projBox1 li{
+  font-size: 13px; 
+  font-family: Helvetica;
+  font-weight: 300;
+  margin-right: 5px;
+}
+
+.projTitle1 h2{
+ font-weight: 600;
+  font-style:normal;
+}
+
+.projTitle2 h2{
+ font-weight: 600;
+  font-style:normal;
+}
