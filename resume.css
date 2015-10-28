@@ -54,6 +54,8 @@
     text-shadow: 0px 0px 0px;
   border-bottom: 0px solid #000000;
     background-color:transparent;
+  text-align:center;
+  padding-right: 40px;
 }
 
 .resumeHead li{
