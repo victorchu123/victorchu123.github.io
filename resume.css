@@ -52,7 +52,6 @@
 /* Resume head line */
 .resumeHead{
     text-shadow: 0px 0px 0px;     
-    border-bottom: 1px solid #000000;
 }
 
 .resumeHead li{
@@ -64,8 +63,7 @@
 .thumbnail {
     margin: none;
     padding: none;
-    border: none;
-    background-color: transparent;
+    background-color: white;
     position:relative;
 }
 
@@ -86,7 +84,8 @@
 /* Education section of resume */
 
 .eduBox1 {
-    border: 2px solid #000000;
+    border: 2px solid #dbdbdb;
+    background-color:white
 }
     
 .eduInfo p{
@@ -137,7 +136,8 @@
 /* Work Experience for resume */
 
 .workBox1{
-    border: 2px solid #000000; 
+    border: 2px solid #dbdbdb;
+    background-color:white
 }
 
 .workBox1 p{
@@ -175,17 +175,6 @@
   padding: 0px 5px;
 }
 
-/*.workBox1 h4{
-  font-size: 14px; 
-  margin-left: 7px;
-  font-family: Helvetica;
-  font-weight:600;
-  padding: 5px 0px ;
-  margin: 5px 0px 5px 0px;
-  //padding: 0px;
-  display: inline-block;
-}
-*/
 .workBox1 li{
   font-size: 13px; 
   font-family: Helvetica;
@@ -220,7 +209,8 @@
 /* Project Section for resume */
 
 .projBox1 {
-    border: 2px solid #000000;
+    border: 2px solid #dbdbdb;
+    background-color:white
 }
 
 
