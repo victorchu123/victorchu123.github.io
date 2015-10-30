@@ -10,6 +10,13 @@
     display: inline;
 }
 
+@media (min-width: 979px) {
+  .nav li.dropdown:hover > ul.dropdown-menu {
+      display: block;    
+  }
+}
+
+
 .jumbotron {
     height: 1100px;
     border-bottom:1px solid #000000;

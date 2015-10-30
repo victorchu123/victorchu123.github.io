@@ -10,6 +10,12 @@
   display: inline;
 }
 
+@media (min-width: 979px) {
+  .nav li.dropdown:hover > ul.dropdown-menu {
+      display: block;    
+  }
+}
+
 .jumbotron {
   background-image:url('http://universitylibrarian.blogs.wesleyan.edu/files/2012/01/olinlibsmall.jpg');
   height: 500px;

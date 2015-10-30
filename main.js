@@ -1,6 +1,6 @@
 var main = function(){
   
-  $(".dropdown-toggle").click(function(){
+  /*$(".dropdown-toggle").click(function(){
     $(".dropdown-menu").toggle();
     });
   
@@ -20,7 +20,7 @@ var main = function(){
   
   $(".rightmst_nav_elem").click(function(){
         $(".dropdown-menu").hide();
-  });
+  });*/
 };
 
 $(document).ready(main);
