@@ -21,6 +21,22 @@ var main = function(){
   $(".rightmst_nav_elem").click(function(){
         $(".dropdown-menu").hide();
   });
+  
+  $(".fstElem").click(function(){
+        $(".dropdown-menu").hide();
+  });
+  
+  $(".sndElem").click(function(){
+        $(".dropdown-menu").hide();
+  });
+  
+  $(".thrdElem").click(function(){
+        $(".dropdown-menu").hide();
+  });
+  
+  $(".frthElem").click(function(){
+        $(".dropdown-menu").hide();
+  });
 };
 
 $(document).ready(main);
