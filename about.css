@@ -33,13 +33,9 @@
 .jumbotron .container h1{
   text-align:center;
   color:#CCFFFF;
+  padding-bottom: 10px;
 }
 
-.jumbotron .container p{
-  padding-top:.2cm;
-  text-align:center;
-  color:#CCFFFF;
-}
 
 .jumbotron h1 {
   color: #fff;
@@ -48,40 +44,6 @@
   font-weight: bold;
 }
 
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
-}
-
-.learn-more {
-  background-color: #f7f7f7;
-}
-
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-
-.learn-more a {
-  color: #00b0ff;
-}
-
-.neighborhood-guides {
-  background-color:#efefef;
-  border-bottom:1px solid #dbdbdb;
-}
-
-.neighborhood-guides h2{
-  color:#393c3d;
-  font-size:24px;
-}
-
-.neighborhood-guides p{
-  font-size:15px;
-  margin-bottom:13px;
-}
 
 /* Dropdown */
 
@@ -97,4 +59,26 @@
   font-weight: 500;
 }
 
-    
+/* About me section */
+.about-me{
+  background-color: #fff;
+  height: 406.4px;
+  border: 3px solid #000000;
+  position:relative;
+}
+
+.about-me img{ 
+  float: left;
+  padding-right: 10px;
+}
+
+.about-me p{
+    text-indent: 1cm;
+   text-align:justify;
+  color:#000000;
+  text-shadow: 0px 0px 0px;
+  margin: 10px;
+  position:relative;
+  top:35%;
+  transform: translate(0,-50%)
+}

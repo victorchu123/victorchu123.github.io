@@ -119,10 +119,11 @@
     border: 2px solid #dbdbdb;
     background-color:white;
     border-radius: 5px;
+  /*padding-bottom: 11.2cm;*/
 }
     
 .eduInfo p{
- font-size: 15px;
+ font-size: 13px;
  display: inline;
  font-family: Helvetica;
  font-weight: 300;
@@ -173,6 +174,7 @@
     border: 2px solid #dbdbdb;
     background-color:white;
   border-radius: 5px;
+  padding-bottom: 2.05cm;
 }
 
 .workBox1 p{
@@ -233,6 +235,7 @@
     border: 2px solid #dbdbdb;
     background-color:white;
   border-radius: 5px;
+  padding-bottom: 3.35cm;
 }
 
 
