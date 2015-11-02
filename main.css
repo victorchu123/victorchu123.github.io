@@ -35,6 +35,12 @@
   color:#CCFFFF;
 }
 
+.jumbotron .container a{
+  text-align:center;
+  color:#CCFFFF;
+  font-size: 45px;
+}
+
 .jumbotron .container p{
   padding-top:.2cm;
   text-align:center;
