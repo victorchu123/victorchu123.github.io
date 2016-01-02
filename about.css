@@ -6,6 +6,10 @@
   text-transform: uppercase;
 }
 
+.nav {
+  border-bottom:1px solid #000000; 
+}
+
 .nav li {
   display: inline;
 }
@@ -80,9 +84,4 @@
   background-color: white;
   border: 1px solid black;
   margin: 0;
-}
-
-.home {
-  text-align: center;
-  padding: 10cm;
 }
