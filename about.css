@@ -21,7 +21,7 @@
 }
 
 .jumbotron {
- background:url('http://universitylibrarian.blogs.wesleyan.edu/files/2012/01/olinlibsmall.jpg') no-repeat center center;
+ background:url('http://universitylibrarian.blogs.wesleyan.edu/files/2012/01/olinlibsmall.jpg');
   min-height:100%;
   background-repeat: no-repeat;
   background-size: cover;
