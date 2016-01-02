@@ -21,19 +21,20 @@
 }
 
 .jumbotron {
-  background-image:url('http://universitylibrarian.blogs.wesleyan.edu/files/2012/01/olinlibsmall.jpg');
-  height: 700px;
+ background:url('http://universitylibrarian.blogs.wesleyan.edu/files/2012/01/olinlibsmall.jpg') no-repeat center center;
+  min-height:100%;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom:1px solid #000000;
-  border-top:1px solid #000000;
+  border-top:1px solid #000000; 
+}
+
+body {
+  min-height:100%;
 }
 
 .jumbotron .container-fluid {
-/*
-  position: relative;
-  top:100px;
-*/
+  padding: 100px;
 }
 
 .jumbotron .container-fluid h1{

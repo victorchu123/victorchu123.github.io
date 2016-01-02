@@ -23,6 +23,15 @@
 .jumbotron {
     border-bottom:1px solid #000000;
     border-top:1px solid #000000;
+    min-height:100%;
+}
+
+.jumbotron .container-fluid {
+  padding: 30px;
+}
+
+body {
+  min-height:100%;
 }
 
 .jumbotron h5{
