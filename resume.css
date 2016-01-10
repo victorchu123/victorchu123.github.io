@@ -130,6 +130,7 @@ body {
     border: 2px solid #dbdbdb;
     background-color:white;
     border-radius: 5px;
+    padding-right: 2px;
 }
     
 .eduInfo p{
@@ -209,6 +210,7 @@ body {
   border: 2px solid #dbdbdb;
   background-color:white;
   border-radius: 5px;
+  padding-right: 2px;
 }
 
 .projBox1 li{
@@ -258,6 +260,7 @@ body {
     border: 2px solid #dbdbdb;
     background-color:white;
   border-radius: 5px;
+  padding-right: 2px;
 }
 
 /*.workBox1 p{
