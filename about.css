@@ -80,7 +80,8 @@ body {
 
 .container-fluid p{
   text-align:inherit;
-/*  text-indent: 1cm;*/
+  text-indent: 1cm;
+  font-weight: 300;
   color:#000000;
   text-shadow: 0px 0px 0px;
   padding: 10px;
