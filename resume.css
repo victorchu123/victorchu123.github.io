@@ -99,7 +99,7 @@ body {
     font-size: 16px;  
     font-family: Helvetica;
     font-weight: 100;
-    display: inline;
+    display:block;
 }
 
 .thumbnail {
@@ -131,12 +131,12 @@ body {
     background-color:white;
     border-radius: 5px;
     padding-right: 2px;
+    font-family: Helvetica;
 }
     
 .eduInfo p{
  font-size: 13px;
  display: inline;
- font-family: Helvetica;
  font-weight: 300;
 }
 
@@ -159,7 +159,7 @@ body {
   display: inline-block;
   font-family: Helvetica;
   font-weight:400;
-  font-style: oblique;
+  font-style: normal;
   padding: 5px 5px 2px;
   margin: 0px 10px 0px 10px;
   padding:0;
@@ -183,7 +183,7 @@ body {
 }
 
 .relcourses li{
-  font-style: normal;
+  font-style: italic;
   font-family: Helvetica;
  font-weight: 300;
     font-size:13px;
@@ -191,18 +191,9 @@ body {
 
 .relcourses h1{
   font-size: 20px;
-  font-style: oblique;
+  font-style:oblique;
 }
 
-.proficient li{
-  display: inline;
-  font-size: 13px;
-}
-
-.familiar li{
-  display: inline;
-  font-size: 13px;
-}
 
 /* Project Section for resume */
 
@@ -211,6 +202,7 @@ body {
   background-color:white;
   border-radius: 5px;
   padding-right: 2px;
+  font-family: Helvetica;
 }
 
 .projBox1 li{
@@ -231,7 +223,7 @@ body {
   display: inline-block;
   font-family: Helvetica;
   font-weight:400;
-  font-style: oblique;
+  font-style: normal;
   padding: 5px 5px 2px;
   margin: 0px 10px 0px 10px;
   padding:0;
@@ -261,6 +253,7 @@ body {
     background-color:white;
   border-radius: 5px;
   padding-right: 2px;
+  font-family: Helvetica;
 }
 
 /*.workBox1 p{
@@ -289,7 +282,7 @@ body {
   display: inline-block;
   font-family: Helvetica;
   font-weight:400;
-  font-style: oblique;
+  font-style:normal;
   padding: 5px 5px 2px;
   margin: 0px 10px 0px 10px;
   padding:0;
