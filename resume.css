@@ -1,13 +1,13 @@
 .nav a {
     color: #5a5a5a;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 700;
     padding: 14px 10px;
     text-transform: uppercase;
 }
 
 .nav {
-  border-bottom:1px solid #000000; 
+    border-bottom: 1px solid #000;
 }
 
 .nav li {
@@ -15,245 +15,238 @@
 }
 
 @media (min-width: 979px) {
-  .nav li.dropdown:hover > ul.dropdown-menu {
-      display: block;    
-  }
+    .nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+    }
 }
 
 .jumbotron {
-    border-bottom:1px solid #000000;
-    border-top:1px solid #000000;
-    min-height:100%;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    min-height: 100%;
 }
 
 .jumbotron .container-fluid {
-  padding: 30px;
+    padding: 30px;
 }
 
 body {
-  min-height:100%;
+    min-height: 100%;
 }
 
-.jumbotron h5{
+.jumbotron h5 {
     font-size: 40px;
-    font-weight: bold;  
+    font-weight: 700;
     font-family: serif;
-    text-shadow: 0px 0px 0px;
-    margin: 0px;
+    text-shadow: 0 0 0;
+    margin: 0;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     font-size: 20px;
-    font-weight: bold;  
+    font-weight: 700;
     font-family: serif;
-    text-shadow: 0px 0px 0px; 
+    text-shadow: 0 0 0;
 /*    padding: 7px 10px 7px;*/
     font-style: oblique;
 }
 
-
-.jumbotron li{ 
+.jumbotron li {
     font-style: normal;
-  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
-  text-shadow: 0px 0px 0px;
-  font-size: 13px; 
-  font-family: Helvetica;
-  font-weight: 300;
-  margin-right: 5px;
+    src: url(http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff) format(woff);
+    text-shadow: 0 0 0;
+    font-size: 13px;
+    font-family: Helvetica;
+    font-weight: 300;
+    margin-right: 5px;
 }
 
-.jumbotron h3{
-  font-size: 14px; 
-  margin: 5px 10px 5px;
-  font-family: Helvetica;
-  font-weight: 300;
+.jumbotron h3 {
+    font-size: 14px;
+    margin: 5px 10px;
+    font-family: Helvetica;
+    font-weight: 300;
 }
 
-.jumbotron p{
-    text-shadow: 0px 0px 0px;    
-    font-size: 5px; 
+.jumbotron p {
+    text-shadow: 0 0 0;
+    font-size: 5px;
     font-family: Helvetica;
     font-style: normal;
-  font-weight: normal;
-  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+    font-weight: 400;
+    src: url(http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff) format(woff);
 }
 
-.jumbotron a{
-  font-size: 13px;
-  padding: 0px;
-  margin: 0px;
-  font-weight: 500;
-  color: #0000EE;
+.jumbotron a {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    color: #00E;
 }
 
 /* Resume head line */
-.resumeHead{
-    text-shadow: 0px 0px 0px;
-  border-bottom: 0px solid #000000;
-    background-color:transparent;
-  text-align:center;
-  padding-right: 40px;
+.resumeHead {
+    text-shadow: 0 0 0;
+    border-bottom: 0 solid #000;
+    background-color: transparent;
+    text-align: center;
+    padding-right: 40px;
 }
 
-.resumeHead li{
-    font-size: 16px;  
+.resumeHead li {
+    font-size: 16px;
     font-family: Helvetica;
     font-weight: 100;
-    display:block;
+    display: block;
 }
 
 .thumbnail {
     margin: none;
     padding: none;
-    background-color: white;
-    position:relative;
-  border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
 }
 
 /* Dropdown menu */
-
 .dropdown-menu {
-  font-size: 16px;
-  margin-top: 5px;
-  min-width: 105px;
+    font-size: 16px;
+    margin-top: 5px;
+    min-width: 105px;
 }
 
 .dropdown-menu li a {
-  /*color: #898989;*/
-  padding: 6px 20px;
-  font-weight: 500;
+/*color: #898989;*/
+    padding: 6px 20px;
+    font-weight: 500;
 }
 
 /* Education section of resume */
-
 .eduBox1 {
     border: 2px solid #dbdbdb;
-    background-color:white;
+    background-color: #fff;
     border-radius: 5px;
     padding-right: 2px;
     font-family: Helvetica;
 }
-    
-.eduInfo p{
- font-size: 13px;
- display: inline;
- font-weight: 300;
+
+.eduInfo p {
+    font-size: 13px;
+    display: inline;
+    font-weight: 300;
 }
 
-.eduInfo li{
- font-family: Helvetica;
- font-weight: 300;
-  margin-right:5px;
+.eduInfo li {
+    font-family: Helvetica;
+    font-weight: 300;
+    margin-right: 5px;
 }
 
-.eduBox1 h1{
-  padding: 0px 5px 0px;
-  font-size: 20px;
-  margin:5px 5px;
-  font-style: oblique;
-  
+.eduBox1 h1 {
+    padding: 0 5px;
+    font-size: 20px;
+    margin: 5px;
+    font-style: oblique;
 }
 
-.eduBox1 h2{
-  font-size: 14px; 
-  display: inline-block;
-  font-family: Helvetica;
-  font-weight:400;
-  font-style: normal;
-  padding: 5px 5px 2px;
-  margin: 0px 10px 0px 10px;
-  padding:0;
+.eduBox1 h2 {
+    font-size: 14px;
+    display: inline-block;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 5px 2px;
+    margin: 0 10px;
+    padding: 0;
 }
 
-.eduBox1 h3{
-  font-size: 14px; 
-  margin: 5px 10px 5px;
-  font-family: Helvetica;
-  font-weight: 300;
+.eduBox1 h3 {
+    font-size: 14px;
+    margin: 5px 10px;
+    font-family: Helvetica;
+    font-weight: 300;
 }
 
-.eduBox1 h4{
-  font-style:normal;
-  font-size: 15px; 
-  font-family: Helvetica;
-  font-weight:600;
-  padding: 5px 5px 2px;
-  margin: 0px 10px 0px 10px;
-  padding:0;
+.eduBox1 h4 {
+    font-style: normal;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 600;
+    padding: 5px 5px 2px;
+    margin: 0 10px;
+    padding: 0;
 }
 
-.relcourses li{
-  font-style: italic;
-  font-family: Helvetica;
- font-weight: 300;
-    font-size:13px;
+.relcourses li {
+    font-style: italic;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 13px;
 }
 
-.relcourses h1{
-  font-size: 20px;
-  font-style:oblique;
+.relcourses h1 {
+    font-size: 20px;
+    font-style: oblique;
 }
-
 
 /* Project Section for resume */
-
-.projBox1{
-  border: 2px solid #dbdbdb;
-  background-color:white;
-  border-radius: 5px;
-  padding-right: 2px;
-  font-family: Helvetica;
+.projBox1 {
+    border: 2px solid #dbdbdb;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-right: 2px;
+    font-family: Helvetica;
 }
 
-.projBox1 li{
-  font-size: 13px; 
-  font-family: Helvetica;
-  font-weight: 300;
-  margin-right: 5px;
+.projBox1 li {
+    font-size: 13px;
+    font-family: Helvetica;
+    font-weight: 300;
+    margin-right: 5px;
 }
 
-.projBox1 h1{
-  padding: 7px 10px 7px;
-  font-size: 20px;
-  font-style: oblique;
+.projBox1 h1 {
+    padding: 7px 10px;
+    font-size: 20px;
+    font-style: oblique;
 }
 
-.projBox1 h2{
-  font-size: 14px; 
-  display: inline-block;
-  font-family: Helvetica;
-  font-weight:400;
-  font-style: normal;
-  padding: 5px 5px 2px;
-  margin: 0px 10px 0px 10px;
-  padding:0;
+.projBox1 h2 {
+    font-size: 14px;
+    display: inline-block;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 5px 2px;
+    margin: 0 10px;
+    padding: 0;
 }
 
-.projBox1 h3{
-  font-size: 14px; 
-  margin: 5px 10px 5px;
-  font-family: Helvetica;
-  font-weight: 300;
+.projBox1 h3 {
+    font-size: 14px;
+    margin: 5px 10px;
+    font-family: Helvetica;
+    font-weight: 300;
 }
 
-.projBox1 h4{
-  font-style:normal;
-  font-size: 15px; 
-  font-family: Helvetica;
-  font-weight:600;
-  padding: 5px 5px 2px;
-  margin: 0px 10px 0px 10px;
-  padding:0;
+.projBox1 h4 {
+    font-style: normal;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 600;
+    padding: 5px 5px 2px;
+    margin: 0 10px;
+    padding: 0;
 }
 
 /* Work Experience for resume */
-
-.workBox1{
+.workBox1 {
     border: 2px solid #dbdbdb;
-    background-color:white;
-  border-radius: 5px;
-  padding-right: 2px;
-  font-family: Helvetica;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-right: 2px;
+    font-family: Helvetica;
 }
 
 /*.workBox1 p{
@@ -263,45 +256,43 @@ body {
     font-weight: 300;   
   padding: 2px 5px;
 }*/
-
-.workBox1 li{
-  font-size: 13px; 
-  font-family: Helvetica;
-  font-weight: 300;
-  margin-right: 5px; 
+.workBox1 li {
+    font-size: 13px;
+    font-family: Helvetica;
+    font-weight: 300;
+    margin-right: 5px;
 }
 
-.workBox1 h1{
-  font-size: 20px;
-  font-style: oblique;
-  padding: 7px 10px 7px;
+.workBox1 h1 {
+    font-size: 20px;
+    font-style: oblique;
+    padding: 7px 10px;
 }
 
-.workBox1 h2{
-  font-size: 14px; 
-  display: inline-block;
-  font-family: Helvetica;
-  font-weight:400;
-  font-style:normal;
-  padding: 5px 5px 2px;
-  margin: 0px 10px 0px 10px;
-  padding:0;
-  
+.workBox1 h2 {
+    font-size: 14px;
+    display: inline-block;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 5px 2px;
+    margin: 0 10px;
+    padding: 0;
 }
 
-.workBox1 h3{
-  font-size: 14px; 
-  font-family: Helvetica;
-  font-weight: 300;
-  margin: 5px 10px 5px;
+.workBox1 h3 {
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 300;
+    margin: 5px 10px;
 }
 
-.workBox1 h4{
-  font-weight: 600;
-  font-style:normal;
-  font-size: 15px; 
-  font-family: Helvetica;
-  padding: 5px 5px 2px;
-  margin: 0px 10px 0px 10px;
-  padding:0;
+.workBox1 h4 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Helvetica;
+    padding: 5px 5px 2px;
+    margin: 0 10px;
+    padding: 0;
 }
