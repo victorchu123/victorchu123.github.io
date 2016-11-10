@@ -23,7 +23,7 @@
 .jumbotron {
     height: 100vh;
     /* This image will be displayed fullscreen */
-	background:url('http://victorchu123.github.io/Pictures/olin_winter.jpg') no-repeat;
+	background:url('http://victorchu123.github.io/Pictures/olin_winter.jpg') no-repeat center center;
 	/* Ensure the html element always takes up the full height of the browser window */
 	min-height:100%;
 	/* The Magic */
