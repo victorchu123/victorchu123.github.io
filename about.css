@@ -21,26 +21,29 @@
 }
 
 .jumbotron {
-    height: 100vh;
     /* This image will be displayed fullscreen */
-	background:url('http://i65.tinypic.com/nq2w5f.jpg') no-repeat;
+	background:url('http://i65.tinypic.com/nq2w5f.jpg') no-repeat center center;
 	/* Ensure the html element always takes up the full height of the browser window */
 	min-height:100%;
 	/* The Magic */
 	background-size:cover;
+    border-bottom: 1px solid #000;
 }
 
 body {
     /* Workaround for some mobile browsers */
     min-height: 100%;
+    padding-top: 55px; 
+    min-width: 100%;
 }
 
 .jumbotron .container-fluid {
-    padding: 100px;
+/*    padding: 100px;*/
+    margin: 50px;
 }
 
 .jumbotron .container-fluid h1 {
-    padding-bottom: 10px;
+/*    padding-bottom: 10px;*/
 }
 
 .jumbotron h1 {

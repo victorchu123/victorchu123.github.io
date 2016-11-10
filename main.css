@@ -21,18 +21,27 @@
 }
 
 .jumbotron {
-    height: 100vh;
     /* This image will be displayed fullscreen */
 	background:url('http://i65.tinypic.com/nq2w5f.jpg') no-repeat center center;
 	/* Ensure the html element always takes up the full height of the browser window */
 	min-height:100%;
 	/* The Magic */
 	background-size:cover;
+    border-bottom: 1px solid #000;
 }
 
 body {
     min-height: 100%;
+    padding-top: 55px; 
     min-width: 100%;
+}
+
+html,body {
+  height:100%;
+}
+
+.special,.special .jumbotron {
+  height:100%;
 }
 
 .jumbotron .container {
