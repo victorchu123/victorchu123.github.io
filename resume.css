@@ -26,7 +26,7 @@
     min-height: 100%;
 }
 
-.jumbotron .container-fluid {
+.jumbotron .container {
     padding: 30px;
 }
 
@@ -183,91 +183,4 @@ html,body {
     font-family: Helvetica;
     font-weight: 300;
     font-size: 13px;
-}
-
-/* Project Section for resume */
-.projBox1 {
-    border: 2px solid #dbdbdb;
-    background-color: #fff;
-    border-radius: 5px;
-    padding-right: 2px;
-    font-family: Helvetica;
-}
-
-.projBox1 li {
-    font-size: 13px;
-    font-family: Helvetica;
-    font-weight: 300;
-    margin-right: 5px;
-}
-
-.projBox1 h2 {
-    font-size: 14px;
-    display: inline-block;
-    font-family: Helvetica;
-    font-weight: 400;
-    font-style: normal;
-    padding: 5px 5px 2px;
-    margin: 0 10px;
-    padding: 0;
-}
-
-.projBox1 h3 {
-    font-size: 14px;
-    margin: 5px 10px;
-    font-family: Helvetica;
-    font-weight: 300;
-}
-
-.projBox1 h4 {
-    font-style: normal;
-    font-size: 15px;
-    font-family: Helvetica;
-    font-weight: 600;
-    padding: 10px 0px 2px;
-    margin: 0 10px;
-}
-
-/* Work Experience for resume */
-.workBox1 {
-    border: 2px solid #dbdbdb;
-    background-color: #fff;
-    border-radius: 5px;
-    padding-right: 2px;
-    font-family: Helvetica;
-}
-
-.workBox1 li {
-    font-size: 13px;
-    font-family: Helvetica;
-    font-weight: 300;
-    margin-right: 5px;
-}
-
-.workBox1 h2 {
-    font-size: 14px;
-    display: inline-block;
-    font-family: Helvetica;
-    font-weight: 400;
-    font-style: normal;
-    padding: 5px 5px 2px;
-    margin: 0 10px;
-    padding: 0;
-}
-
-.workBox1 h3 {
-    font-size: 14px;
-    font-family: Helvetica;
-    font-weight: 300;
-    margin: 5px 10px;
-}
-
-
-.workBox1 h4 {
-    font-weight: 600;
-    font-style: normal;
-    font-size: 15px;
-    font-family: Helvetica;
-    padding: 10px 0px 2px;
-    margin: 0 10px;
 }
