@@ -35,11 +35,11 @@ body {
 }
 
 html,body {
-  height:100%;
+  	height:100%;
 }
 
 .special,.special .jumbotron {
-  height:100%;
+  	height:100%;
 }
 
 .jumbotron h5 {
@@ -94,7 +94,7 @@ html,body {
 }
 
 /* Resume head line */
-.resumeHead {
+.resume-head {
     text-shadow: 0 0 0;
     border-bottom: 0 solid #000;
     background-color: transparent;
@@ -102,7 +102,7 @@ html,body {
     padding-right: 40px;
 }
 
-.resumeHead li {
+.resume-head li {
     font-size: 16px;
     font-family: Helvetica;
     font-weight: 100;
@@ -125,13 +125,12 @@ html,body {
 }
 
 .dropdown-menu li a {
-/*color: #898989;*/
     padding: 6px 20px;
     font-weight: 500;
 }
 
 /* Education section of resume */
-.eduBox1 {
+.edu-box {
     border: 2px solid #dbdbdb;
     background-color: #fff;
     border-radius: 5px;
@@ -139,19 +138,7 @@ html,body {
     font-family: Helvetica;
 }
 
-.eduInfo p {
-    font-size: 13px;
-    display: inline;
-    font-weight: 300;
-}
-
-.eduInfo li {
-    font-family: Helvetica;
-    font-weight: 300;
-    margin-right: 5px;
-}
-
-.eduBox1 h2 {
+.edu-box h2 {
     font-size: 14px;
     display: inline-block;
     font-family: Helvetica;
@@ -162,14 +149,14 @@ html,body {
     padding: 0;
 }
 
-.eduBox1 h3 {
+.edu-box h3 {
     font-size: 14px;
     margin: 5px 10px;
     font-family: Helvetica;
     font-weight: 300;
 }
 
-.eduBox1 h4 {
+.edu-box h4 {
     font-style: normal;
     font-size: 15px;
     font-family: Helvetica;
@@ -178,7 +165,19 @@ html,body {
     margin: 0 10px;
 }
 
-.relcourses li {
+.edu-info p {
+    font-size: 13px;
+    display: inline;
+    font-weight: 300;
+}
+
+.edu-info li {
+    font-family: Helvetica;
+    font-weight: 300;
+    margin-right: 5px;
+}
+
+.rel-courses li {
     font-style: italic;
     font-family: Helvetica;
     font-weight: 300;

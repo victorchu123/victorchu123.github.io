@@ -12,85 +12,27 @@
     </script>
     <script src="/scripts/bootstrap.min.js">
     </script>
-    <title></title>
 </head>
 <body>
-    <div class="nav navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <ul class="pull-left">
-                <li>
-                    <a href="http://victorchu123.github.io/index.html">Home</a>
-                </li>
-                <li>
-                    <a href=
-                    "http://victorchu123.github.io/about.html">About</a>
-                </li>
-                <li>
-                    <a href=
-                    "http://victorchu123.github.io/resumewithcol.html">Resume</a>
-                </li>
-            </ul>
-            <ul class="pull-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" href="">Github<b class=
-                    "caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="https://github.com/victorchu123" style=
-                            "font-weight:900;" target="_blank">Profile</a>
-                        </li>
-                        <li>
-                            <a href=
-                            "https://github.com/victorchu123/Personal-Projects/tree/master/C0"
-                            target="_blank">C0</a>
-                        </li>
-                        <li>
-                            <a href=
-                            "https://github.com/victorchu123/Personal-Projects/tree/master/Standard%20ML"
-                            target="_blank">Standard ML</a>
-                        </li>
-                        <li>
-                            <a href=
-                            "https://github.com/victorchu123/Personal-Projects/tree/master/Python"
-                            target="_blank">Python</a>
-                        </li>
-                        <li>
-                            <a href=
-                            "https://github.com/victorchu123/Personal-Projects/tree/master/Unity_C%23"
-                            target="_blank">Unity & C#</a>
-                        </li>
-                        <li>
-                            <a href=
-                            "https://github.com/victorchu123/Personal-Projects/tree/master/MyApplication2"
-                            target="_blank">Android</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href=
-                    "https://www.linkedin.com/in/victor-chu-88745470"
-                    target="_blank">LinkedIn</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+	<div id="nav-bar"></div>
+	<script>
+		$('#nav-bar').load('nav-bar.html');
+	</script>
     <div class="jumbotron">
         <div class="container">
             <div class="row">
                 <div class=".col-sm-9">
-                    <div class="resumeHead">
-                        <ul class="headInfo">
+                    <div class="resume-head">
+                        <ul>
                             <h5>Victor Chu</h5>
                             <li>754 Eagle Ave. Alameda, CA 94501</li>
                             <li>(510) 508-0238</li>
                             <li>vmchu@wesleyan.edu</li>
                         </ul>
                     </div>
-                    <div class="eduBox1">
-                        <div class="eduTitle">
-                            <h1>Education</h1>
-                        </div>
-                        <div class="eduInfo">
+                    <div class="edu-box">
+                        <h1>Education</h1>
+                        <div class="edu-info">
                             <ul>
                                 <li><b>Wesleyan University</b>, Middletown,
                                 CT</li>
@@ -103,7 +45,7 @@
                                     <p>GPA: 3.52 / 4.00</p>
                                 </li>
                             </ul>
-                            <div class="relcourses">
+                            <div class="rel-courses">
                                 <h1>Relevant Coursework</h1>
                                 <ul>
                                     <li>Principles of Imperative
@@ -291,12 +233,9 @@ Photoshop, Sony Vegas</li>
                           </ul>
                       </div>
                     </div>
-              
-                
             </div>
         </div>
     </div>
-    <!--<script type = "text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
     <script>
     $(function () { $("[data-toggle = 'tooltip']").tooltip(); });
     </script>

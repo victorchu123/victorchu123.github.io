@@ -8,68 +8,17 @@
     "http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css"
     rel="stylesheet">
     <link href="main.css" rel="stylesheet">
-    <title></title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
+    type="text/javascript">
+    </script> 
+    <script src="main.js" type="text/javascript">
+    </script>
 </head>
 <body>
-    <div class="nav navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <ul class="pull-left">
-                <li>
-                    <a href="http://victorchu123.github.io/index.html">Home</a>
-                </li>
-                <li>
-                    <a href=
-                    "http://victorchu123.github.io/about.html">About</a>
-                </li>
-                <li>
-                    <a href=
-                    "http://victorchu123.github.io/resumewithcol.html">Resume</a>
-                </li>
-            </ul>
-            <ul class="pull-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" href="">Github<b class=
-                    "caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="https://github.com/victorchu123" style=
-                            "font-weight:900;" target="_blank">Profile</a>
-                        </li>
-                        <li>
-                            <a href=
-                            "https://github.com/victorchu123/Personal-Projects/tree/master/C0"
-                            target="_blank">C0</a>
-                        </li>
-                        <li>
-                            <a href=
-                            "https://github.com/victorchu123/Personal-Projects/tree/master/Standard%20ML"
-                            target="_blank">Standard ML</a>
-                        </li>
-                        <li>
-                            <a href=
-                            "https://github.com/victorchu123/Personal-Projects/tree/master/Python"
-                            target="_blank">Python</a>
-                        </li>
-                        <li>
-                            <a href=
-                            "https://github.com/victorchu123/Personal-Projects/tree/master/Unity_C%23"
-                            target="_blank">Unity & C#</a>
-                        </li>
-                        <li>
-                            <a href=
-                            "https://github.com/victorchu123/Personal-Projects/tree/master/MyApplication2"
-                            target="_blank">Android</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href=
-                    "https://www.linkedin.com/in/victor-chu-88745470"
-                    target="_blank">LinkedIn</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <div id="nav-bar"></div>
+	<script>
+		$('#nav-bar').load('nav-bar.html');
+	</script>
     <div class="jumbotron">
         <div class="container">
           <div class="row">
@@ -83,10 +32,5 @@
           </div>
         </div>
     </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
-    type="text/javascript">
-    </script> 
-    <script src="main.js" type="text/javascript">
-    </script>
 </body>
 </html>
