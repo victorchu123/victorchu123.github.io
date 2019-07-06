@@ -24,7 +24,6 @@
 	/* Ensure the html element always takes up the full height of the browser window */
 	min-height:100%;
 	/* The Magic */
-    background-color: #ffffff;
 	background-size:cover;
     border-bottom: 1px solid #000;
 }
