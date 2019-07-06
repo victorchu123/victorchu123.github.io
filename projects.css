@@ -1,0 +1,98 @@
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+
+.nav {
+    border-bottom: 1px solid #000;
+}
+
+.nav li {
+    display: inline;
+}
+
+@media (min-width: 979px) {
+    .nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+    }
+}
+
+.jumbotron {
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+	/* The Magic */
+    background-color: #ffffff;
+	background-size:cover;
+    border-bottom: 1px solid #000;
+}
+
+.jumbotron .container-fluid {
+    margin: 50px;
+}
+
+.jumbotron img {
+    max-width: 100%;
+    border: 1px solid #000;
+}
+
+.jumbotron h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Shift',sans-serif;
+    font-weight: 700;
+    -webkit-text-stroke: 1px #000;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+body {
+    /* Workaround for some mobile browsers */
+    min-height: 100%;
+    padding-top: 55px; 
+    min-width: 100%;
+}
+
+html,body {
+  	height:100%;
+}
+
+.special,.special .jumbotron {
+  	height:100%;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    font-size: 16px;
+    margin-top: 5px;
+    min-width: 105px;
+}
+
+.dropdown-menu li a {
+    padding: 6px 20px;
+    font-weight: 500;
+}
+
+/* About me section */
+.about-me {
+    background-color: #fff;
+    height: 406.4px;
+    border: 3px solid #000;
+    position: relative;
+}
+
+.container-fluid p {
+    text-align: inherit;
+    text-indent: 1cm;
+    font-weight: 300;
+    color: #000;
+    text-shadow: 0 0 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 0;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+}
