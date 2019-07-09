@@ -21,6 +21,8 @@
 }
 
 .jumbotron {
+    /* This image will be displayed fullscreen */
+    background:url('http://i65.tinypic.com/nq2w5f.jpg') no-repeat center center;
 	/* Ensure the html element always takes up the full height of the browser window */
 	min-height:100%;
 	/* The Magic */
@@ -83,8 +85,8 @@ html,body {
 }
 
 .container-fluid p {
-    text-align: inherit;
-    text-indent: 1cm;
+    text-align: center;
+    text-indent: 0cm;
     font-weight: 300;
     color: #000;
     text-shadow: 0 0 0;
