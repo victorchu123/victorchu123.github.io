@@ -21,8 +21,6 @@
 }
 
 .jumbotron {
-    /* This image will be displayed fullscreen */
-    background:url('http://i65.tinypic.com/nq2w5f.jpg') no-repeat center center;
 	/* Ensure the html element always takes up the full height of the browser window */
 	min-height:100%;
 	/* The Magic */
@@ -96,9 +94,4 @@ html,body {
     margin: 0;
     font-family: "Helvetica Neue";
     font-size: 20px;
-}
-
-.container-fluid img {
-    margin: auto;    
-    display: block;
 }
