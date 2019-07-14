@@ -25,9 +25,51 @@
 	background:url('http://i65.tinypic.com/nq2w5f.jpg') no-repeat center center;
 	/* Ensure the html element always takes up the full height of the browser window */
 	min-height:100%;
-	/* The Magic */
-	background-size:cover;
+    /* The Magic */
+    background-size:cover;
     border-bottom: 1px solid #000;
+}
+
+.jumbotron .container-fluid {
+    margin: 50px;
+}
+
+.jumbotron h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Shift',sans-serif;
+    font-weight: 700;
+    -webkit-text-stroke: 1px #000;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.jumbotron img {
+    max-width: 100%;
+    border: 1px solid #000;
+}
+
+.special,.special .jumbotron {
+    height:100%;
+}
+
+.container-fluid p {
+    text-align: inherit;
+    text-indent: 1cm;
+    font-weight: 300;
+    color: #000;
+    text-shadow: 0 0 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 0;
+    font-family: "Helvetica Neue";
+    font-size: 30px;
+}
+
+.container-fluid a {
+    font-family: "Helvetica Neue";
+    font-size: 30px;
 }
 
 body {
@@ -38,25 +80,7 @@ body {
 }
 
 html,body {
-  	height:100%;
-}
-
-.special,.special .jumbotron {
-  	height:100%;
-}
-
-.jumbotron .container-fluid {
-    margin: 50px;
-}
-
-.jumbotron h1 {
-    color: #ffffff;
-    font-size: 48px;
-    font-family: 'Shift',sans-serif;
-    font-weight: 700;
-    -webkit-text-stroke: 1px #000;
-    text-align: center;
-    padding-bottom: 50px;
+    height:100%;
 }
 
 /* Dropdown */
@@ -77,23 +101,4 @@ html,body {
     height: 406.4px;
     border: 3px solid #000;
     position: relative;
-}
-
-.jumbotron img {
-    max-width: 100%;
-    border: 1px solid #000;
-}
-
-.container-fluid p {
-    text-align: inherit;
-    text-indent: 1cm;
-    font-weight: 300;
-    color: #000;
-    text-shadow: 0 0 0;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #000;
-    margin: 0;
-    font-family: "Helvetica Neue";
-    font-size: 20px;
 }
